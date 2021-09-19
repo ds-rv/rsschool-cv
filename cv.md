@@ -37,3 +37,12 @@ String.prototype.toJadenCase = function () {
 };
 ```
 
+## Education:
+
+* North Caucasus Federal University (NCFU), 2011-2015: Business Informatics (bachelor's degree)
+* North Caucasus Federal University (NCFU), 2015-2017: Business Informatics (master's degree)
+
+## Languages
+
+* Russian: native
+* English: B2 ([EF SET Certificate](https://www.efset.org/cert/ueysiQ))
