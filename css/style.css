@@ -189,11 +189,11 @@ a {
     margin: 0 0 20px;
 }
 
-.section h1.section__headline {
+.section h2.section__headline {
     font-size: 24px;
 }
 
-.section h2.section__headline {
+.section h3.section__headline {
     font-size: 18px;
     margin-top: 25px;
 }
