@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alata&family=Alatsi&family=Aleo:ital,wght@0,400;0,700;1,400;1,700&family=Bebas+Neue&family=Fredericka+the+Great&family=Lexend:wght@400;700&family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/github-dark.min.css">
     <link rel="stylesheet" href="css/style.css"/>
     <script src="https://kit.fontawesome.com/c8dd1cbc46.js" crossorigin="anonymous"></script>
     <title>RS School CV</title>
@@ -66,11 +67,76 @@
             </div>
         </header>
         <main class="main">
-            
+            <section class="section" id="about">
+                <h1 class="section__headline">
+                    About me
+                </h1>
+                <div class="section__content">
+                    My name is Denis and I am a beginner front-end developer. I only have a minor experience in web application development 
+                    but my goal is to acquire sufficient skills and become a professional software engineer. I am seeking 
+                    an opportunity to gain my first relevant experience as a front-end developer.
+                </div>
+            </section>
+            <section class="section" id="skills">
+                <h1 class="section__headline">
+                    Skills
+                </h1>
+                <div class="section__content">
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>git</li>
+                        <li>JavaScript</li>
+                        <li>PHP</li>
+                        <li>Avocode, Figma</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="section" id="education">
+                <h1 class="section__headline">
+                    Education
+                </h1>
+                <div class="section__content">
+                    <p><strong>2011-2015:</strong> North Caucasus Federal University (NCFU), Business Informatics (bachelor's degree)</p>
+                    <p><strong>2015-2017:</strong> North Caucasus Federal University (NCFU), Business Informatics (master's degree)</p>
+                </div>
+            </section>
+            <section class="section" id="languages">
+                <h2 class="section__headline">
+                    Languages
+                </h2>
+                <div class="section__content">
+                    <p><strong>Russian:</strong> native</p>
+                    <p><strong>English:</strong> B2 (<a href="https://www.efset.org/cert/ueysiQ">EF SET Certificate</a>)</p>
+                </div>
+            </section>
+            <section class="section" id="example">
+                <h1 class="section__headline">
+                    Code Example
+                </h1>
+                <div class="section__content">
+                    <pre>
+                        <code class="language-javascript">
+String.prototype.toJadenCase = function () {
+    let pieces = this.split(' ');
+    for (let i = 0; i &lt; pieces.length; i++) {
+        pieces[i] = pieces[i].charAt(0).toUpperCase() 
+                    + pieces[i].slice(1);
+    }
+    return pieces.join(' ');
+};
+                        </code>
+                    </pre>
+                </div>
+            </section>
         </main>
         <footer class="footer">
            
         </footer>
     </div>
+    <script src="js/highlight.min.js"></script>
+    <script>
+        hljs.highlightAll();
+    </script>
 </body>
 </html>
