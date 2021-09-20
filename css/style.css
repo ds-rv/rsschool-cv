@@ -100,6 +100,28 @@ a {
     text-transform: uppercase;
 }
 
+.navbar {
+    padding: 10px 40px;
+    color: #fff;
+    background-color: #686A68;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar a {
+    text-decoration: underline dotted #fff;
+}
+
 .main {
     background-color: #fff;
     padding: 40px;
@@ -138,4 +160,24 @@ a {
 
 .section ul li {
     list-style: disc;
+}
+
+.footer {
+    background-color: #686A68;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    align-items: center;
+}
+
+.footer__rsschool {
+    margin-left: 8px;
+}
+
+.footer__rsschool img {
+    height: 35px;
+}
+
+.footer__github img {
+    height: 50px;
 }
