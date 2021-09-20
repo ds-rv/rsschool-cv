@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Alatsi&family=Aleo:ital,wght@0,400;0,700;1,400;1,700&family=Bebas+Neue&family=Fredericka+the+Great&family=Lexend:wght@400;700&family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/github-dark.min.css">
+    <link rel="stylesheet" href="css/style.css"/>
+    <script src="https://kit.fontawesome.com/c8dd1cbc46.js" crossorigin="anonymous"></script>
+    <title>RS School CV</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="avatar-block">
+                <div class="avatar">
+                    <img src="img/avatar.jpg" alt="Avatar">
+                </div>
+            </div>
+            <div class="contacts-block">
+                <div class="title">
+                    <p class="title__name">
+                        Denis Romantsov
+                    </p>
+                    <p class="title__position">
+                        Junior web developer
+                    </p>
+                </div>
+                <h2 class="headline">
+                    Contacts
+                </h2>
+                <ul class="contacts">
+                    <li class="contacts__item">
+                        <div class="contacts__icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contacts__value">Stavropol, Russia</div>
+                    </li>
+                    <li class="contacts__item">
+                        <div class="contacts__icon">
+                            <i class="fas fa-envelope-open-text"></i>
+                        </div>
+                        <div class="contacts__value">
+                            <a href="mailto:ds.rv2@yandex.ru">ds.rv2@yandex.ru</a>
+                        </div>
+                    </li>
+                    <li class="contacts__item">
+                        <div class="contacts__icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="contacts__value">
+                            <a href="https://github.com/ds-rv/">ds-rv</a>
+                        </div>
+                    </li>
+                    <li class="contacts__item">
+                        <div class="contacts__icon">
+                            <i class="fab fa-telegram-plane"></i>
+                        </div>
+                        <div class="contacts__value">
+                            <a href="https://t.me/ds-rv">@ds-rv</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#languages">Languages</a></li>
+                <li><a href="#example">Code Example</a></li>
+            </ul>
+        </nav>
+        <main class="main">
+            <section class="section" id="about">
+                <h1 class="section__headline">
+                    About me
+                </h1>
+                <div class="section__content">
+                    My name is Denis and I am a beginner front-end developer. I only have a minor experience in web application development 
+                    but my goal is to acquire sufficient skills and become a professional software engineer. I am seeking 
+                    an opportunity to gain my first relevant experience as a front-end developer.
+                </div>
+            </section>
+            <section class="section" id="skills">
+                <h1 class="section__headline">
+                    Skills
+                </h1>
+                <div class="section__content">
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>git</li>
+                        <li>JavaScript</li>
+                        <li>PHP</li>
+                        <li>Avocode, Figma</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="section" id="education">
+                <h1 class="section__headline">
+                    Education
+                </h1>
+                <div class="section__content">
+                    <p><strong>2011-2015:</strong> North Caucasus Federal University (NCFU), Business Informatics (bachelor's degree)</p>
+                    <p><strong>2015-2017:</strong> North Caucasus Federal University (NCFU), Business Informatics (master's degree)</p>
+                </div>
+                <h2 class="section__headline" id="languages">
+                    Languages
+                </h2>
+                <div class="section__content">
+                    <p><strong>Russian:</strong> native</p>
+                    <p><strong>English:</strong> B2 (<a href="https://www.efset.org/cert/ueysiQ">EF SET Certificate</a>)</p>
+                </div>
+            </section>
+            <section class="section" id="example">
+                <h1 class="section__headline">
+                    Code Example
+                </h1>
+                <div class="section__content">
+                    <pre>
+                        <code class="language-javascript">
+String.prototype.toJadenCase = function () {
+    let pieces = this.split(' ');
+    for (let i = 0; i &lt; pieces.length; i++) {
+        pieces[i] = pieces[i].charAt(0).toUpperCase() 
+                    + pieces[i].slice(1);
+    }
+    return pieces.join(' ');
+};
+                        </code>
+                    </pre>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer__rsschool">
+                <a href="https://rs.school/js/">
+                    <img src="img/rs_school_js.svg" alt="RS School logo">
+                </a>
+            </div>
+            <div class="footer__year">
+                2021
+            </div>
+            <div class="footer__github">
+                <a href="https://github.com/ds-rv">
+                    <img src="img/GitHub_Logo.png" alt="GitHub logo">
+                </a>
+            </div>
+        </footer>
+    </div>
+    <script src="js/highlight.min.js"></script>
+    <script>
+        hljs.highlightAll();
+    </script>
+</body>
+</html>

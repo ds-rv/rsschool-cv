@@ -1,0 +1,191 @@
+body {
+    font-family: 'Lexend', sans-serif;
+    font-size: 16px;
+    background-color: #ddd;
+}
+
+a {
+    color: inherit;
+}
+
+.container {
+    width: 900px;
+    margin: 30px auto;
+}
+
+.header, .main, .footer {
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    background-color: #EEEBD3; 
+    color: #3F403F;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.header ul {
+    margin: 0;
+    padding: 0;
+}
+
+.header ul li {
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+.avatar-block {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.avatar-block .avatar {
+    height: 250px;
+    margin: 50px 0;
+}
+
+.avatar-block .avatar img {
+    height: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.contacts-block {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.contacts-block .headline {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.contacts .contacts__item {
+    display: flex;  
+}
+
+.contacts .contacts__icon {
+    width: 20px;
+    text-align: center;
+}
+
+.contacts .contacts__value {
+    margin-left: 20px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.title .title__name {
+    font-family: 'Lexend', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0 0 5px;
+    text-transform: uppercase;
+}
+
+.title .title__position {
+    font-family: 'Lexend', sans-serif;
+    font-size: 14px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.navbar {
+    padding: 10px 40px;
+    color: #fff;
+    background-color: #686A68;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar a {
+    text-decoration: underline dotted #fff;
+}
+
+.main {
+    background-color: #fff;
+    padding: 40px;
+    width: 100%;
+    margin-top: 0;
+}
+
+.section {
+    margin-bottom: 50px;
+}
+
+.section:last-child {
+    margin-bottom: 0;
+}
+
+.section .section__headline {
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 0 20px;
+}
+
+.section h1.section__headline {
+    font-size: 24px;
+}
+
+.section h2.section__headline {
+    font-size: 18px;
+    margin-top: 25px;
+}
+
+.section .section__content {
+    line-height: 24px;
+}
+
+.section .section__content p {
+    margin: 0 0 10px;
+}
+
+.section ul {
+    margin: 0;
+    padding: 0 20px;
+}
+
+.section ul li {
+    list-style: disc;
+}
+
+.footer {
+    background-color: #686A68;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    align-items: center;
+}
+
+.footer__rsschool {
+    margin-left: 8px;
+}
+
+.footer__rsschool img {
+    height: 35px;
+}
+
+.footer__github img {
+    height: 50px;
+}
