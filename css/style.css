@@ -16,3 +16,86 @@ a {
 .header, .main, .footer {
     box-sizing: border-box;
 }
+
+.header {
+    width: 100%;
+    background-color: #EEEBD3; 
+    color: #3F403F;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.header ul {
+    margin: 0;
+    padding: 0;
+}
+
+.header ul li {
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+.avatar-block {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.avatar-block .avatar {
+    height: 250px;
+    margin: 50px 0;
+}
+
+.avatar-block .avatar img {
+    height: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.contacts-block {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.contacts-block .headline {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.contacts .contacts__item {
+    display: flex;  
+}
+
+.contacts .contacts__icon {
+    width: 20px;
+    text-align: center;
+}
+
+.contacts .contacts__value {
+    margin-left: 20px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.title .title__name {
+    font-family: 'Lexend', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0 0 5px;
+    text-transform: uppercase;
+}
+
+.title .title__position {
+    font-family: 'Lexend', sans-serif;
+    font-size: 14px;
+    margin: 0;
+    text-transform: uppercase;
+}
