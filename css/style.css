@@ -1,0 +1,18 @@
+body {
+    font-family: 'Lexend', sans-serif;
+    font-size: 16px;
+    background-color: #ddd;
+}
+
+a {
+    color: inherit;
+}
+
+.container {
+    width: 900px;
+    margin: 30px auto;
+}
+
+.header, .main, .footer {
+    box-sizing: border-box;
+}
