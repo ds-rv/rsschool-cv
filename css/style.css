@@ -9,8 +9,14 @@ a {
 }
 
 .container {
-    width: 900px;
+    max-width: 900px;
     margin: 30px auto;
+}
+
+@media (max-width: 640px) {
+    .container {
+        margin: 10px auto;
+    }
 }
 
 .header, .main, .footer {
@@ -24,6 +30,14 @@ a {
     display: flex;
     justify-content: space-between;
     padding: 20px;
+}
+
+@media (max-width: 640px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
 }
 
 .header ul {
@@ -43,6 +57,12 @@ a {
     align-items: center;
 }
 
+@media (max-width: 640px) {
+    .avatar-block {
+        width: 100%;
+    }
+}
+
 .avatar-block .avatar {
     height: 250px;
     margin: 50px 0;
@@ -60,6 +80,13 @@ a {
     flex-direction: column;
     align-items: center;
     margin: 50px 0;
+}
+
+@media (max-width: 640px) {
+    .contacts-block {
+        margin: 0 0 40px;
+        width: 100%;
+    }
 }
 
 .contacts-block .headline {
@@ -114,8 +141,20 @@ a {
     padding: 0;
 }
 
+@media (max-width: 640px) {
+    .navbar ul {
+        flex-direction: column;
+    }
+}
+
 .navbar ul li {
     list-style: none;
+}
+
+@media (max-width: 640px) {
+    .navbar ul li {
+        margin: 5px 0;
+    }
 }
 
 .navbar a {
@@ -127,6 +166,12 @@ a {
     padding: 40px;
     width: 100%;
     margin-top: 0;
+}
+
+@media (max-width: 640px) {
+    .main {
+        padding: 20px;
+    }
 }
 
 .section {
@@ -176,6 +221,12 @@ a {
     justify-content: space-between;
     padding: 20px 40px;
     align-items: center;
+}
+
+@media (max-width: 640px) {
+    .footer {
+        padding: 20px 10px;
+    }
 }
 
 .footer__rsschool {
